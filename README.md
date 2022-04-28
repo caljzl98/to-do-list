@@ -1,3 +1,6 @@
+# Display on Github Pages
+https://caljzl98.github.io/cp2-cse154
+
 # Creative Project 2 Project Specification
 ## Overview
 For your second Creative Project, you will get a bit of practice with what we're learning about JavaScript (JS) to add interactivity a web page using the DOM and event handlers. As a creative project, you have freedom to have more ownership in your work, as long as you meet the requirements listed below.
