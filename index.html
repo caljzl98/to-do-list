@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<!--
+Name:     Calvin Jun Zhong Lim
+Date:     April 19, 2022
+Section:  CSE 154 AB
+
+This is the index.html page for my second CP in the class. It includes a banner
+"Calvin's To-Do List" and basic structure of the UI to add a task.
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <header>
+      <h1>Calvin's To-Do List</h1>
+    </header>
+    <main>
+      <section id="to-do-list-container">
+        <h2>Task(s)</h2>
+        <div class="horizontal-rule">
+          <hr>
+        </div>
+        <button id="add-task">
+          <!-- all image icons are from fonts.google.com -->
+          <img class="icon"
+          src="icon/add-task.png"
+          alt="A plus symbol inside a filled in circle.">
+          <span>Add Task</span>
+        </button>
+        <section id="tasks-container">
+        </section>
+        <div class="horizontal-rule">
+          <hr>
+        </div>
+      </section>
+    </main>
+    <footer>
+      All images/icons and fonts are from fonts.google.com
+    </footer>
+  </body>
+</html>

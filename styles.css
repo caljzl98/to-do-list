@@ -1,0 +1,130 @@
+/*
+Name:     Calvin Jun Zhong Lim
+Date:     April 19, 2022
+Section:  CSE 154 AB
+
+This styles.css is used by index.html. It is inspired by a black and white-ish minimalistic design.
+*/
+
+body, #add-task span {
+  font-family: 'Oswald', sans-serif;
+}
+
+header, footer {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.task-complete {
+  background-color: darkgray;
+}
+
+.task-incomplete {
+  background-color: white;
+}
+
+#to-do-list-container,
+#add-task,
+#tasks-container,
+.add-task-card,
+.options-bar,
+.task-card {
+  display: flex;
+}
+
+#to-do-list-container,
+#add-task {
+  justify-content: center;
+}
+
+#to-do-list-container,
+#add-task,
+.task-card {
+  align-items: center;
+}
+
+.options-bar {
+  justify-content: flex-end;
+}
+
+.task-card {
+  justify-content: flex-start;
+}
+
+.task-card span {
+  flex-grow: 1;
+}
+
+#to-do-list-container,
+#tasks-container,
+.add-task-card {
+  flex-flow: column wrap;
+}
+
+#add-task,
+.add-task-card,
+.input-text,
+.task-card {
+  padding: 10px;
+}
+
+.horizontal-rule {
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+#tasks-container {
+  width: 35%;
+}
+
+.icon, .radio-button, .delete-button {
+  width: 25px;
+  height: 25px;
+  padding-right: 7px;
+}
+
+.add-task-card-cancel, .add-task-card-add {
+  padding: 5px;
+  margin: 5px;
+  font-size: 13px;
+}
+
+#add-task,
+.add-task-card,
+.task-card {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.add-task-card, .task-card {
+  width: auto;
+  border: 1px solid black;
+}
+
+#add-task {
+  border: 1px dashed black;
+}
+
+.radio-button,
+.task-complete,
+.delete-button,
+#add-task {
+  opacity: 50%;
+}
+
+.radio-button:hover,
+.delete-button:hover,
+.task-incomplete,
+#add-task:hover {
+  opacity: 100%;
+}
+
+.input-text {
+  border: none;
+  outline: none;
+}
