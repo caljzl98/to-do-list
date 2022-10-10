@@ -1,5 +1,5 @@
 # Display on Github Pages
-https://caljzl98.github.io/to-do-list
+https://caljzl98.github.io/to-do-list-cp2
 
 # Creative Project 2 Project Specification
 ## Overview
